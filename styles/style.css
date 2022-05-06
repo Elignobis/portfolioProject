@@ -1,6 +1,26 @@
 /* Portfolio inspired by https://bootstrapmade.com/demo/Laura/ */
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
+/* Media Queries */
+
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .web-text {
+        margin: 0;
+        padding: 0;
+        box-sizing: none;
+        font-size: .55em;
+    }
+    .fa-microphone {
+        font-size: .75em;
+    
+    }
+
+    .fa-search {
+        font-size: .75em;
+    }
+}
+
 /* Styling Sibongile with Google colors */
 
 
@@ -37,9 +57,17 @@ h1 span:nth-child(9){
     margin: 0;
     padding: 0;
     box-sizing: none;
-    
+    color: black;
+    text-transform: uppercase;
 }
 
+
+/* Other components */
+
+.fa-microphone {
+    color: blue;
+
+}
 
 
 
