@@ -24,17 +24,49 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Personal styles Always LAST -->
+    <!-- CSS Style Sheet -->
 
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
       <!-- Nav -->
-        
-
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important; ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img src="./images/S_google.webp" alt="" class="img-fluid" style="width: 5%;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <div class="nav-item dropdown">
+                <a class="dropdown-toggle nav-link" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </a>
+              
+                <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">About me</a></li>
+                  <li><a class="dropdown-item" href="#">Work & Education</a></li>
+                  <li><a class="dropdown-item" href="#">Skills</a></li>
+                  
+                  <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                </ul>
+              </div>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <!-- Home -->
       <section class="text-dark vh-100" id="home">
-          <div class="container d-flex justify-content-center align-items-center flex-column h-100">
+          <div class="container d-flex justify-content-center align-items-center flex-column h-75">
 
             <!-- Sibongile Google Style -->
 
@@ -60,9 +92,9 @@
 
             <!-- Sibongile google buttons -->
              <div class="google-btns my-4">
-                <a href="./assets/front-end-developer-1528263273.pdf" class="btn btn-outline-secondary" role="button" alt="A placeholder resume">Download CV</a>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <a href="#" class="btn btn-outline-secondary" role="button">Projects</a>
+                <a href="./assets/front-end-developer-1528263273.pdf" class="btn btn-outline-secondary" role="button" alt="A placeholder resume" style="background-color: rgb(248,249,250); color: gray; border: none;" >Download CV</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="btn btn-outline-secondary" role="button" style="background-color: rgb(248,249,250); color: gray; border: none;">Projects</a>
             </div> 
 
 
@@ -74,7 +106,7 @@
 
       <!-- About -->
 
-      <section class="" id="about">
+      <section class="" id="about-me">
         <div class="container">
 
         </div>
