@@ -147,6 +147,24 @@ h2 span:nth-child(16){
     text-transform: uppercase;
 }
 
+/* Carousel */
+
+.myimage {
+    width: 35%;
+    aspect-ratio: 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+     -o-object-position: 20px 0px 0px 0px;
+       object-position: 20px 0px 0px 0px; 
+    border-radius: 50%;
+  }
+
+  .nav-circle {
+    width: 15px !important;
+    aspect-ratio: 1 !important;
+    height: auto !important;
+    border-radius: 50% !important;
+  }
 
 /* Other components */
 
@@ -154,6 +172,8 @@ h2 span:nth-child(16){
     color: blue;
 
 }
+
+
 
 
 
