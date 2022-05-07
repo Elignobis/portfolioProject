@@ -56,7 +56,6 @@
 
 /* Styling Sibongile with Google colors */
 
-
 h1 span:nth-child(1){
     color: #4285F4;
 }
@@ -84,6 +83,60 @@ h1 span:nth-child(8){
 }
 h1 span:nth-child(9){
     color: rgb(251,188,5);
+}
+
+/* h2 title with google colors */
+
+h2 span:nth-child(1){
+    color: #4285F4;
+}
+h2 span:nth-child(2){
+    color: #EA4335;
+    
+}
+h2 span:nth-child(3){
+    color: rgb(251,188,5);
+}
+h2 span:nth-child(4){
+    color: rgb(72,137,244);
+}
+h2 span:nth-child(5){
+    color: rgb(52,168,83);
+}
+h2 span:nth-child(6){
+    color: rgb(234,67,53);
+}
+h2 span:nth-child(7){
+    color: #4285F4;
+}
+h2 span:nth-child(8){
+    color: #EA4335;
+}
+h2 span:nth-child(9){
+    color: rgb(251,188,5);
+}
+
+h2 span:nth-child(10){
+    color: #4285F4;
+}
+h2 span:nth-child(11){
+    color: #EA4335;
+    
+}
+h2 span:nth-child(12){
+    color: rgb(251,188,5);
+}
+h2 span:nth-child(13){
+    color: rgb(72,137,244);
+}
+h2 span:nth-child(14){
+    color: rgb(52,168,83);
+}
+h2 span:nth-child(15){
+    color: rgb(234,67,53);
+}
+h2 span:nth-child(16){
+    color: #4285F4;
 }
 
 .web-text {
