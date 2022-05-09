@@ -6,7 +6,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Project</title>
+    <title>About</title>
 
     <!-- Bootstrap -->
 
@@ -29,44 +29,47 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-      <!-- Nav --> <!--Make navbar fixed top -- fixed-top doesn't work-->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: white !important; ">
-        <div class="container-fluid ">
-          <a class="navbar-brand" href="#"><img src="./images/S_google.webp" alt="" class="img-fluid" style="width: 5%;"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+    <!-- Nav --> <!--Make navbar fixed top -- fixed-top doesn't work-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top w-100" style="background-color: rgb(255, 255, 255) !important;">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#"><img src="./images/S_google.webp" alt="" class="img-fluid" style="width: 5%;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <div class="nav-item dropdown">
+              <a class="dropdown-toggle nav-link" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+              </a>
+            
+              <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" aria-current="page"  href="#about-me">About me</a></li>
+                <li><a class="dropdown-item" href="#work">Work & Education</a></li>
+                <li><a class="dropdown-item" href="#">Skills</a></li>
+                
+                <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+              </ul>
+            </div>
+            <li class="nav-item">
+                <a class="nav-link" href="/projects.html">Projects</a>
               </li>
-              <div class="nav-item dropdown">
-                <a class="dropdown-toggle nav-link" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                  About
-                </a>
-              
-                <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownMenuLink">
-                  <li><a class="dropdown-item" href="#about-me">About me</a></li>
-                  <li><a class="dropdown-item" href="#work">Work & Education</a></li>
-                  <li><a class="dropdown-item" href="#">Skills</a></li>
-                  
-                  <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
-                </ul>
-              </div>
-              <li class="nav-item">
-                  <a class="nav-link" href="#">Projects</a>
-                </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <!-- About Me -->
+      </div>
+    </nav>
+
+    <!-- About -->
+
+    <div class="container">
       <section class="text-dark vh-100" id="about-me">
-          <div class="container">
+          <div class="container my-5">
 
             <!-- About Google Style -->
 
@@ -89,19 +92,18 @@
                 </div>
             <!-- About-me text -->
                <div class="col-md-5 text-wrap d-flex justify-content-start align-items-center my-5 shadow" data-aos="fade-left" data-aos-duration="10000">
-                   <p>Hi there, I'm Sibongile Rwayi from Khayelitsha, Cape Town. I have an altruistic personality, always willing to go the extra mile and help where I can. I lead by example and go above and beyond to be a positive role model to people younger and older than me. I'm intrigued by the various concepts in the digital world and I try to learn to understand as much as I can.</p>
+                   <p>Hi there, I'm Sibongile Rwayi. An aspiring full-stack developer. I have an altruistic personality, always willing to go the extra mile and help where I can. I lead by example and go above and beyond to be a positive role model to people younger and older than me. I'm intrigued by the various concepts in the digital world and I try to learn to understand as much as I can. And lastly, I <span class="typed" style="text-transform: uppercase; color: #EA4335"></span> code!</p>
                </div>
            </div>
           </div>
       </section>
-      
       <!-- Work and Eduacation -->
-
+  
       <section class="text-dark" id="work">
         <div class="container d-flex flex-column justify-content-center">
-
+  
           <!-- About Google Style -->
-
+  
           <h2 class="text-center my-5">
               <span>W</span>
               <span>o</span>
@@ -120,9 +122,9 @@
               <span>o</span>
               <span>n</span>
           </h2>
-
+  
          <div class="row">
-
+  
             <!-- Work Section -->
             
             <div class="col-md-6">
@@ -148,7 +150,7 @@
                     <p>Responsible for the overall management of 1 of 13 projects under the Shawco Education sector. Coordinating and leading student mentors and tutors, liaised with schools and parents of  the learner participants participates.</p>
                 </div>
             </div>
-
+  
             <!-- Education section -->
             <div class="col-md-6">
                 <h4 style="color: #EA4335;">Education</h4>
@@ -166,9 +168,9 @@
                 </div>
             </div>
          </div>
-
+  
          <!-- Testimonials --> 
-
+  
          <section class="text-dark vh-100" id="testimonials">
             <div class="container">
   
@@ -190,7 +192,7 @@
               </h2>
   
               <!-- Carousel -->
-
+  
                 <div class="container text-black text-center">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
@@ -224,11 +226,14 @@
     </section>
       <!-- Skills  --><!--Think about putting Skills under projects, then it would be Projects ===> My Skills -> My Projects-->
       <!-- Testimonials -->
-
+  
     
-
-
+  
+  
       <!-- END -->
+
+    </div>
+      
   
 
     <!-- JS for Bootstrap -->
@@ -248,6 +253,21 @@
     <script>
       AOS.init();
     </script>
+
+     <!-- Typing JS -->
+
+     <script src="./js/typed.js"></script>
+     <script>
+         var typed = new Typed('.typed', {
+         strings: ['Eat', 'Sleep',  'Breathe'],
+         typeSpeed: 100,
+         backSpeed: 70,
+         backDelay: 5,
+         shuffle: false,
+         loop: true,
+         showCursor: true,
+         });
+     </script>
   </body>
 </html>
     
