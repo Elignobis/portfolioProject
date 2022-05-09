@@ -194,8 +194,8 @@ a {
 
 
 h2 span {
-    -webkit-animation: animate 5s linear 1;
-            animation: animate 5s linear 1;
+    -webkit-animation: animate 5s linear 0;
+            animation: animate 5s linear 0;
   }
   
   h2 span:nth-child(1) {
