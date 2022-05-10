@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+.custom-logo {
+    width: 5% !important;
+}
 /* Portfolio inspired by https://bootstrapmade.com/demo/Laura/ */
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
@@ -25,16 +28,10 @@
         font-size: .75em;
     }
 
+    .custom-logo {
+        width: 15% !important;
+    }
     
-
-    /* nav div .navbar-brand {
-        display: none;
-    } */
-
-    /* #navbarNav {
-        background-color: #EA4335;
-        width: 10%;
-    } */
 }
 
 
@@ -225,6 +222,10 @@ h2 span:nth-child(16){
 
 #nav-circle-center {
     margin: 0px 20px 0px 20px;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 

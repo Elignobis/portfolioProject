@@ -288,4 +288,14 @@ h2 span {
               filter: blur(0px);
       text-shadow: none;
     }
-  2  
+  
+  }
+
+ .card-body {
+   height: 17rem;
+   overflow-y: hidden;
+   border: 1px solid black;
+   box-shadow: 7px 10px 7px -5px black;
+ }
+
+
