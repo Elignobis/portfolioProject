@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Portfolio inspired by https://bootstrapmade.com/demo/Laura/ */
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
@@ -19,6 +24,17 @@
     .fa-search {
         font-size: .75em;
     }
+
+    
+
+    /* nav div .navbar-brand {
+        display: none;
+    } */
+
+    /* #navbarNav {
+        background-color: #EA4335;
+        width: 10%;
+    } */
 }
 
 
@@ -178,6 +194,7 @@ h2 span:nth-child(16){
     background-color: rgb(251,188,5);
 }
 
+
 /* Other components */
 
 .fa-microphone {
@@ -187,6 +204,28 @@ h2 span:nth-child(16){
 
 /* Projects */
 
+/* About style */
+
+
+#about-me {
+    scroll-margin: 110px;
+}
+
+#testimonials {
+    scroll-margin: 110px;
+}
+
+#work {
+    scroll-margin: 110px;
+}
+
+#skills {
+    scroll-margin: 110px;
+}
+
+#nav-circle-center {
+    margin: 0px 20px 0px 20px;
+}
 
 
 

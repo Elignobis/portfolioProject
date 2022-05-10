@@ -40,7 +40,7 @@
           <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" href="/index.html">Home</a>
+                <a class="nav-link active" href="/index.html" onclick="readMore()">Home</a>
               </li>
               <div class="nav-item dropdown">
                 <a class="dropdown-toggle nav-link" href="/about.html" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -68,7 +68,7 @@
 
       <!-- Projects -->
 
-      <section class="text-dark vh-90" id="projects">
+      <section class="text-dark vh-100" id="projects">
             <div class="container">
                 <div class="container my-5">
     
@@ -85,99 +85,75 @@
                     <span>s</span>
                 </h2>
                 </div>
-
-                <!-- PROJECT 1  -->
-                <div class="projects-list h-75">
-                    <div class="col-md-4 project" data-tags="HTML,CSS,PSD,Bootstrap"  data-aos="fade-right" data-aos-easing="linear"
-                    data-aos-duration="1500">
-                        <img src="./images/firstWebsite.png" alt="Sibongile's first ever portfolio design at Lifechoices coding academy" class="img-fluid img1" style="height: 100%; width: 100%; object-fit: contain;"/>
-                        <div class="project-info">
-                        <ul class="tags">
-                            <i class="fab fa-html5" style="color: rgb(221,75,37);"></i>
-                            <i class="fab fa-css3-alt" style="color: rgb(37,75,221);"></i></ul>
-                        <!-- /.tags -->
-                        <h3>First portfolio website</h3>
-                        <p>This was my first ever portfolio design/website. It was completed after 3 weeks of me starting coding. The layout is good for a beginner, however, responsiveness is non-existent and colors are lacking. I used <i class="fab fa-html5" style="color: rgb(221,75,37);"></i> HTML5, <i class="fab fa-css3-alt" style="color: rgb(37,75,221);"></i> CSS3, and a little <i class="fab fa-js" style="color: rgb(243,207,1);"></i> Javastript to complete this project.</p>
-                        <ul class="project-btns">
-                          <li><a href="../app-onepage" target="_blank" class="project-btn"><i class="fa fa-external-link"></i>Show</a></li>
-                          <li><a href="https://github.com/krzysztof-m/app-onepage" target="_blank" class="project-btn"><i class="fa fa-github"></i>Code</a></li>
-                        </ul>
-                        <!-- /.project-btns -->
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card w-100">
+                        <div class="card-body">
+                          <h5 class="card-title">First portfolio website</h5>
+                          <img src="./images/firstWebsite.png" alt="" style="height: 100%; width: 100%;">
+                          <p class="card-text mt-3">This was my first ever portfolio design/website. It was completed after 3 weeks of me starting coding. The layout is good for a beginner, however, responsiveness is non-existent and colors are lacking. I used <i class="fab fa-html5" style="color: rgb(221,75,37);"></i> HTML5, <i class="fab fa-css3-alt" style="color: rgb(37,75,221);"></i> CSS3, and a little <i class="fab fa-js" style="color: rgb(243,207,1);"></i> Javastript to complete this project.</p>
+                          <div class="c-btns m-">
+                            <a href="#" class="btn btn-primary">View Code</a>
+                            <a href="#" class="btn btn-primary">View Live</a>
+                          </div>
+                          
+                        </div>
                       </div>
                     </div>
-                </div>   
-                
-                <!-- PROJECT 2  -->
-                <div class="projects-list">
-                    <div class="col-md-4 project" data-tags="HTML,CSS,PSD,Bootstrap" data-aos="zoom-in" data-aos-easing="linear"
-                    data-aos-duration="1800">
-                    <img src="./images/iphoneDesignCalculator.png" alt="" class="img-fluid img2" style="height: 150%; width: 100%; object-fit: contain;"/>
-                    <div class="project-info">
-                    <ul class="tags">
-                        <i class="fab fa-html5" style="color: rgb(221,75,37);">
-                        </i><i class="fab fa-css3-alt" style="color: rgb(37,75,221);"></i>
-                        <i class="fab fa-js" style="color: rgb(243,207,1);"></i>
-                    </ul>
-                    <!-- /.tags -->
-                    <h3>iPhone Calculator Design</h3>
-                    <p>Inspired by the iPhone calculator design. This is my calculator design. This calculator does basic calculations which are possible through <i class="fab fa-js" style="color: rgb(243,207,1);"></i> Javastript</p>
-                    <ul class="project-btns">
-                      <li><a href="../app-onepage" target="_blank" class="project-btn"><i class="fa fa-external-link"></i>Show</a></li>
-                      <li><a href="https://github.com/krzysztof-m/app-onepage" target="_blank" class="project-btn"><i class="fa fa-github"></i>Code</a></li>
-                    </ul>
-                    <!-- /.project-btns -->
-                    </div>
-                    </div>
-                </div>
-
-                <!-- PROJECT 3 -->
-
-                <div class="projects-list">
-                    <div class="col-md-4 project" data-tags="HTML,CSS,PSD,Bootstrap" data-aos="fade-left" data-aos-easing="linear"
-                    data-aos-duration="1800">
-                        <img src="./images/Rainbow.png" alt="My rainbow project. We did this project in week 3" class="img-fluid img3" style="height: 100%; width: 100%; object-fit: contain;"/>
-                        <div class="project-info">
-                        <ul class="tags">
-                            <i class="fab fa-html5" style="color: rgb(221,75,37);">
-                            </i><i class="fab fa-css3-alt" style="color: rgb(37,75,221);"></i>
-                        </ul>
-                        <!-- /.tags -->
-                        <h3>HTML & CSS rainbow</h3>
-                        <p>This is a <i class="fab fa-html5" style="color: rgb(221,75,37);"></i> HTML5 and <i class="fab fa-css3-alt" style="color: rgb(37,75,221);"></i> CSS3 rainbow website that we completed as a class activity</p>
-                        <ul class="project-btns">
-                          <li><a href="../app-onepage" target="_blank" class="project-btn"><i class="fa fa-external-link"></i>Show</a></li>
-                          <li><a href="https://github.com/krzysztof-m/app-onepage" target="_blank" class="project-btn"><i class="fa fa-github"></i>Code</a></li>
-                        </ul>
-                        <!-- /.project-btns -->
+                    <div class="col-md-4">
+                      <div class="card w-100">
+                        <div class="card-body">
+                          <h5 class="card-title">iPhone calculator design</h5>
+                          <img src="./images/iphoneDesignCalculator.png" alt="" style="height: 100%; width: 100%;">
+                          <p class="card-text mt-3">This is my calculator design. This calculator does basic calculations which are possible through <i class="fab fa-js" style="color: rgb(243,207,1);"></i> Javastript</p>
+                          <a href="#" class="btn btn-primary">View Code</a>
+                          <a href="#" class="btn btn-primary">View Live</a>
+                        </div>
                       </div>
                     </div>
+                    <div class="col-md-4">
+                      <div class="card w-100 ">
+                        <div class="card-body">
+                          <h5 class="card-title">Rainbow</h5>
+                          <img src="./images/Rainbow.png" alt="" style="height: 100%; width: 100%;">
+                            <p class="card-text mt-3">This is a <i class="fab fa-html5" style="color: rgb(221,75,37);"></i> HTML5 and <i class="fab fa-css3-alt" style="color: rgb(37,75,221);"></i> CSS3 rainbow website that we completed as a class activity</p>
+                            <a href="#" class="btn btn-primary">View Code</a>
+                            <a href="#" class="btn btn-primary">View Live</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+
+               
             </div>
         </section> 
 
-        <!-- Footer -->
-      <footer>
-        <section class="footer fixed-bottom" id="footer" style="background-color: rgb(242,242,242);">
-          <div class="container py-3">
+        <section>
+          
+        </section>
+
+      <!-- Footer -->
+      <footer class="footer sticky-bottom border-top " id="footer" style="background-color: rgb(242,242,242);">
+          
             <div class="row">
               <div class="col-md-12">
                 <p>Made at 
-                  <em><mark style="background-color: black;"><a href="https://www.lifechoices.co.za"><span style="color: rgb(169, 202, 54);" class="text-decoration-none">life</span><span style="color: white;">choices</span></a></mark></em>
+                  <em><mark style="background-color: black;"><a href="https://www.lifechoices.co.za"><span style="color: rgb(169, 202, 54);" class="text-decoration-none">life</span><span style="color: white;">choices</span></a></mark></em> Coding Academy.
                 </p>
               </div>
               <hr>
             </div>
             <div class="row d-flex justify-content-evenly vw-100">
-              <div class="col-md-4">This is the left</div>
-              <div class="col-md-4">All rights reserved</div>
-              <div class="col-md-4">This is the right</div>
+              <div class="col-md-4">&copy; 2022 Sibongile All rights reserved.</div>
+              <div class="col-md-4"><i class="fas fa-code"></i> Coding since 2022.</div>
+              <div class="col-md-4"><a href="https://github.com/elignobis" style="color: black;">View Github</a></div>
             </div>
-          </div>
-        </section>
+    
       </footer>
-      
 
-      <!-- END -->
+    <!-- END -->
 
      <!-- JS for Bootstrap -->
 
