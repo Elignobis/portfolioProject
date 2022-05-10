@@ -226,9 +226,21 @@ h2 span:nth-child(16){
 
 body {
     overflow-x: hidden;
+    font-family: sans-serif;
 }
 
+.contact-con {
+    border: 1px groove gray;
+    border-radius: 10px;
+    height:380px;
+}
 
+.form-con {
+    border: 1px groove gray;
+    border-radius: 10px;
+    height:380px;
+    box-shadow: 5px red;
+}
 
 
 
