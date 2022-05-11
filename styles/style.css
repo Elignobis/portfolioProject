@@ -181,7 +181,7 @@ h2 span:nth-child(16){
 
   
 
-  .nav-circle:nth-child(1){
+.nav-circle:nth-child(1){
     background-color: #4285F4;
 }
 .nav-circle:nth-child(2){
@@ -231,7 +231,36 @@ h2 span:nth-child(16){
 body {
     overflow-x: hidden;
     font-family: sans-serif;
+    padding-top: 90px;
 }
+
+.skill-icon {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.fas1, .fab1 {
+    font-size: 3rem;
+}
+
+.skills-con {
+    height:380px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
 
 .contact-con {
     height:380px;
@@ -252,6 +281,28 @@ body {
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     
+}
+
+
+
+/* Floating animation */
+
+
+.avatar {
+	width: 150px;
+	height: 150px;
+	box-sizing: border-box;
+	border: 5px white solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.floating-img { 
+    width: 100%; 
+    height: auto; 
 }
 
 
