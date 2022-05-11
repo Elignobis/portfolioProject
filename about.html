@@ -29,29 +29,29 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <!-- Nav --> <!--Make navbar fixed top -- fixed-top doesn't work-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top w-100" style="background-color: rgb(255, 255, 255) !important;">
-      <div class="container-fluid ">
-        <a class="navbar-brand" href="#"><img src="./images/S_google.webp" alt="logo-S-google" class="img-fluid" style="width: 5%;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: white !important; ">
+      <div class="container-fluid flex-nowrap">
+        <a class="navbar-brand" href="#"><img src="./images/S_google.webp" alt="logo-S-google" class="img-fluid custom-logo"></a>
+        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="./index.html">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <div class="nav-item dropdown">
-              <a class="dropdown-toggle nav-link" href="#" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="dropdown-toggle nav-link" href="/about.html" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                 About
               </a>
             
               <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" aria-current="page"  href="#about-me">About me</a></li>
-                <li><a class="dropdown-item" href="#work">Work & Education</a></li>
-                <li><a class="dropdown-item" href="#">Skills</a></li>
+                <li><a class="dropdown-item" href="/about.html#about-me">About me</a></li>
+                <li><a class="dropdown-item" href="/about.html#work">Work & Education</a></li>
+                <li><a class="dropdown-item" href="/about.html#skills">Skills</a></li>
                 
-                <li><a class="dropdown-item" href="#testimonials">Testimonials</a></li>
+                <li><a class="dropdown-item" href="/about.html#testimonials">Testimonials</a></li>
               </ul>
             </div>
             <li class="nav-item">
