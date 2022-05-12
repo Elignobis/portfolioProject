@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:wght@100;300;400;500;700;900&family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto+Mono:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Microsoft icon cdn */
+
+@font-face {
+    font-family: "SPO365Icons";
+    src: url("//cdn.sharepointonline.com/14025/_layouts/15/fonts/Office365Icons.eot");
+    src: url("//cdn.sharepointonline.com/14025/_layouts/15/fonts/Office365Icons.eot?#iefix") format("embedded-opentype"), 
+         url("//cdn.sharepointonline.com/14025/_layouts/15/fonts/Office365Icons.woff") format("woff"), 
+         url("//cdn.sharepointonline.com/14025/_layouts/15/fonts/Office365Icons.ttf") format("truetype"), 
+         url("//cdn.sharepointonline.com/14025/_layouts/15/fonts/Office365Icons.svg#web") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
