@@ -348,6 +348,13 @@ body {
 }
 
 
+.side-menu {
+    position: fixed;
+    top: 300px;
+    left: 0px;
+}
+
+
 
 
 
