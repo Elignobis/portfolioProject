@@ -288,6 +288,7 @@ body {
 
 .submit-con {
     background: linear-gradient(to right, #4285F4 0%, rgb(234,67,53) 20%, rgb(243,207,1) 40%, #4285F4 60%, rgb(81, 165, 42) 80%, rgb(234,67,53) 100%) !important;
+    
 }
 
 
@@ -315,7 +316,7 @@ body {
 
 /* Darkmode */
 
-[data-theme="dark"] {
+/* [data-theme="dark"] {
     background-color: #111 !important;
     color: black;
 }
@@ -324,7 +325,7 @@ body {
     body {
         color: rgb(255, 0, 0) !important;
     }
-}
+} */
 
 
 .navbarCollapse {
