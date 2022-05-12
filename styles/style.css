@@ -287,8 +287,7 @@ body {
 }
 
 .submit-con {
-    background: linear-gradient(to right, #4285F4 0%, rgb(234,67,53) 20%, rgb(243,207,1) 40%, #4285F4 60%, rgb(81, 165, 42) 80%, rgb(234,67,53) 100%) !important;
-    
+    background: linear-gradient(to right, rgb(68,125,236, 0.6) 0%, rgb(234,67,53, 0.6) 20%, rgb(243,207,1, 0.6) 40%, rgb(68,125,236, 0.6) 60%, rgb(81, 165, 42, 0.6) 80%, rgb(234,67,53, 0.6) 100%) !important; 
 }
 
 
