@@ -225,6 +225,10 @@ h2 span:nth-child(16){
 
 }
 
+#skills {
+    min-height: 100vh;
+}
+
 /* Projects */
 
 /* About style */
@@ -235,15 +239,15 @@ h2 span:nth-child(16){
 }
 
 #testimonials {
-    scroll-margin: 110px;
+    scroll-margin: 15px;
 }
 
 #work {
-    scroll-margin: 110px;
+    scroll-margin: 20px;
 }
 
 #skills {
-    scroll-margin: 110px;
+    scroll-margin: 50px;
 }
 
 #contact {

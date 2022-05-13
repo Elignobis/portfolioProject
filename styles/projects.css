@@ -37,6 +37,10 @@ a {
   object-fit: cover;
 }
 
+#heading-p {
+  scroll-margin: 110px;
+}
+
 
 
 
