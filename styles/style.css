@@ -378,107 +378,34 @@ body {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #landing {
-  background:  */
-    /* top, transparent red, faked with gradient linear-gradient(
-      rgba(0, 0, 0, 0.45),
-      rgba(0, 0, 0, 0.45)
-    ),*/ 
-    /* bottom, image url(https://picsum.photos/1920/1200);*/ 
-  /* background-size: cover;
-  background-attachment: fixed;
-} */
-
-/* #landing h1 {
-  font-family: "Satisfy", cursive;
-  font-size: 4em;
+#side-menu{
+    width: 50px;
 }
 
-.section-title {
-  z-index: 2;
-  position: relative;
-  color: #c1c1c1;
-  text-align: center;
-  font-size: 3.3rem;
-}
+/* Stamp */
 
-.section-title span {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  color: black;
-  top: 12px;
-  font-size: 0.9em;
-  z-index: 1;
-}
-
-h6 {
-  text-align: center;
-}
-
-.experience-container {
-  border-left: 3px solid black;
-  padding-left: 20px;
-  position: relative;
-}
-
-.experience-container::before {
-  position: absolute;
-  left: -10px;
-  top: 0;
-  display: block;
-  content: "";
-  width: 20px;
-  height: 20px;
-  border: 3px solid black;
-  border-radius: 50%;
-  background-color: rgb(248, 249, 250);
-} */
+/* .stamp {
+    transform: rotate(12deg);
+      color: #555;
+      font-size: 3rem;
+      font-weight: 700;
+      border: 0.25rem solid #555;
+      display: inline-block;
+      padding: 0.25rem 1rem;
+      text-transform: uppercase;
+      border-radius: 1rem;
+      font-family: 'Courier';
+      -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+        -webkit-mask-size: 944px 604px;
+    mix-blend-mode: multiply;
+  }
+.is-nope {
+    color: rgba(107, 99, 100, 0.305);
+    border: 0.5rem double rgba(127, 120, 121, 0.392);
+    transform: rotate(-9deg);
+      -webkit-mask-position: 2rem 3rem;
+    font-size: 2rem;
+    position: absolute;
+    top: 190px;
+    left: 15px;  
+  } */

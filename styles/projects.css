@@ -126,28 +126,7 @@ h2 span {
     }
   }
   
-  @keyframes animate {
-    0%, 100% {
-      color: #fff;
-      -webkit-filter: blur(2px);
-              filter: blur(2px);
-      text-shadow: 0 0 10px #003bff,
-   0 0 20px #003bff,
-   0 0 40px #003bff,
-   0 0 800px #003bff,
-   0 0 120px #003bff,
-   0 0 200px #003bff,
-   0 0 300px #003bff,
-   0 0 400px #003bff;
-    }
-    5%, 95% {
-      color: #242222;
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      text-shadow: none;
-    }
-  
-  }
+
 
  .card-body {
    height: 17rem;
