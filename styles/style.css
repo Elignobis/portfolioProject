@@ -365,6 +365,20 @@ body {
 
 
 
+.active1, .side-nav-link:hover {
+    border: 1px solid #aaa7a7;
+    box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    border-radius: 50%;
+    width: 50px;
+    color: black !important;
+}
+
+.cover-about-me-img {
+    object-fit: cover;
+}
+
+
+
 
 
 

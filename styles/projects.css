@@ -33,6 +33,10 @@ a {
   transition: all .2s linear;
 }
 
+.cover-projects {
+  object-fit: cover;
+}
+
 
 
 
@@ -147,7 +151,7 @@ h2 span {
 
  .card-body {
    height: 17rem;
-   overflow-y: hidden;
+   
  }
 
  body {
