@@ -596,6 +596,12 @@ body {
     background: linear-gradient(to right, rgb(68,125,236, 0.6) 0%, rgb(68,125,236, 0.6) 20%, rgb(68,125,236, 0.6) 40%, rgb(68,125,236, 0.6) 60%, rgb(68,125,236, 0.6) 80%, rgb(68,125,236, 0.6) 100%) !important; 
 }
 
+.con-hover:hover {
+    transform: scale(1.039);
+    border: 1px solid rgb(72,137,244);
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
 
 
 /* Floating animation */
