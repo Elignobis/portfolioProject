@@ -21,11 +21,13 @@
 }
 
 .custom-logo {
-    width: 5% !important;
+    width: 10% !important;
 }
 
 
-
+html, body {
+    overflow: scroll;
+}
 
 
 /* Media Queries */
@@ -124,6 +126,91 @@ h1 span:nth-child(9){
     color: rgb(251,188,5);
 }
 
+/* PROJECTS NAME ANIMATE */
+
+
+/* h1 span {
+    -webkit-animation: animate 3s linear 1;
+            animation: animate 3s linear 1;
+  }
+  
+  h1 span:nth-child(1) {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  
+  h1 span:nth-child(2) {
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+  }
+  
+  h1 span:nth-child(3) {
+    -webkit-animation-delay: 0.75s;
+            animation-delay: 0.75s;
+  }
+  
+  h1 span:nth-child(4) {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  
+  h1 span:nth-child(5) {
+    -webkit-animation-delay: 1.25s;
+            animation-delay: 1.25s;
+  }
+  
+  h1 span:nth-child(6) {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s;
+  }
+  
+  h1 span:nth-child(7) {
+    -webkit-animation-delay: 1.75s;
+            animation-delay: 1.75s;
+  }
+  
+  h1 span:nth-child(8) {
+    -webkit-animation-delay: 2s;
+            animation-delay: 2s;
+  }
+  
+  h1 span:nth-child(9) {
+    -webkit-animation-delay: 2.25s;
+            animation-delay: 2.25s;
+  }
+  
+  h1 span:nth-child(10) {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s;
+  }
+  
+  h1 span:nth-child(11) {
+    -webkit-animation-delay: 2.75s;
+            animation-delay: 2.75s;
+  }
+  
+  @-webkit-keyframes animate {
+    0%, 100% {
+      color: #fff;
+      -webkit-filter: blur(2px);
+              filter: blur(2px);
+      text-shadow: 0 0 10px #003bff,
+   0 0 20px #003bff,
+   0 0 40px #003bff,
+   0 0 800px #003bff,
+   0 0 120px #003bff,
+   0 0 200px #003bff,
+   0 0 300px #003bff,
+   0 0 400px #003bff;
+    }
+    5%, 95% {
+      color: #242222;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      text-shadow: none;
+    }
+  } */
+
 /* h2 title with google colors */
 
 h2 span:nth-child(1){
@@ -220,13 +307,21 @@ h2 span:nth-child(16){
 
 /* Other components */
 
-.fa-microphone {
+.fa-microphone, .fa-search {
     color: blue;
 
 }
 
+.search-bar {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.232);
+}
+
 #skills {
     min-height: 100vh;
+}
+
+.home-btn:hover {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.232);
 }
 
 /* Projects */
