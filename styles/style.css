@@ -33,7 +33,6 @@
 	align-items: center;
 	justify-content: space-between;
 	background: white;
-	box-shadow:  var(--secondary-box-shadow);
 }
 
 .header .logo {
@@ -120,7 +119,7 @@
 	cursor: pointer;
 	min-width: 400px;
 	min-height: 100vh;
-	background: var(--primary-color);
+	background: rgba(255, 255, 255, 0.938);
 	place-content: center;
 	transition: all .5s ease-in-out;
 }
@@ -139,13 +138,13 @@
 
 .header .nav-container .nav-list .nav-item a {
 	padding: 15px;
-	font-size: 3vw;
-	font-weight: 600;
+	font-size: 2vw;
+	font-weight: 300;
 	position: relative;
 	letter-spacing: 5px;
 	text-decoration: none;
 	text-transform: uppercase;
-	color: var(--primary-color);
+	color: rgb(72,137,244);
 	transition: color .5s ease-in-out;
   	text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
 }
@@ -478,13 +477,27 @@ h2 span:nth-child(16){
 }
 
 .search-bar {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.232);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.232); 
     cursor: pointer;
+    border: 0.6px solid rgba(128, 128, 128, 0.389);
 }
 
-.search-bar:hover {
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.721);
+.about_scroll {
+    z-index: 300;
 }
+
+.zcontainer {
+    z-index: 400;
+}
+
+.logo {
+    cursor: pointer;
+}
+.logo:hover {
+    transform: rotate(0.5turn) scale(.8);;
+}
+
+
 
 #skills {
     min-height: 100vh;
@@ -580,7 +593,7 @@ body {
 }
 
 .submit-con {
-    background: linear-gradient(to right, rgb(68,125,236, 0.6) 0%, rgb(234,67,53, 0.6) 20%, rgb(243,207,1, 0.6) 40%, rgb(68,125,236, 0.6) 60%, rgb(81, 165, 42, 0.6) 80%, rgb(234,67,53, 0.6) 100%) !important; 
+    background: linear-gradient(to right, rgb(68,125,236, 0.6) 0%, rgb(68,125,236, 0.6) 20%, rgb(68,125,236, 0.6) 40%, rgb(68,125,236, 0.6) 60%, rgb(68,125,236, 0.6) 80%, rgb(68,125,236, 0.6) 100%) !important; 
 }
 
 
