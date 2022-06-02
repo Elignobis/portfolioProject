@@ -20,6 +20,171 @@
     padding: 0;
 }
 
+
+/* Luyanda header */
+
+.header {
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	display: flex;
+	padding: 1% 10%;
+	position: fixed;
+	align-items: center;
+	justify-content: space-between;
+	background: white;
+	box-shadow:  var(--secondary-box-shadow);
+}
+
+.header .logo {
+	height: 50px;
+}
+
+/* MENU BUTTON */
+.header .menu-btn-container {
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	cursor: pointer;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.header .menu-btn-container .menu-btn {
+	width: 30px;
+	height: 3px;
+	position: relative;
+	background: rgb(251,188,5);
+	transition: all 1s ease-in-out;
+}
+
+.header .menu-btn-container .menu-btn::before {
+	right: 0;
+	top: -10px;
+	width: 50px;
+	height: 3px;
+	content: '';
+	position: absolute;
+	background: rgb(234,67,53);
+	transition: all 1s ease-in-out;
+}
+
+.header .menu-btn-container .menu-btn::after {
+	right: 0;
+	width: 40px;
+	height: 3px;
+	content: '';
+	bottom: -10px;
+	position: absolute;
+	background: rgb(72,137,244);
+	transition: all 1s ease-in-out;
+}
+
+.header .menu-btn-container:hover .menu-btn {
+	width: 50px;
+}
+
+.header .menu-btn-container:hover .menu-btn::after {
+	width: 50px;
+}
+
+/* NAV BUTTON CONTAINER ACTIVE */
+.header .menu-btn-container.active .menu-btn {
+	background: rgb(52,168,83);
+	background: transparent;
+}
+
+.header .menu-btn-container.active .menu-btn::before {
+	top: 0;
+	bottom: 0;
+	background: rgb(52,168,83);
+	transform: rotate(45deg);
+}
+
+.header .menu-btn-container.active .menu-btn::after {
+	top: 0;
+	bottom: 0;
+	width: 50px;
+	background: rgb(251,188,5);
+	transform: rotate(315deg);
+}
+
+/* NAV CONTAINER */
+.header .nav-container {
+	top: 0;
+	width: 50%;
+	right: -150%;
+	display: grid;
+	position: fixed;
+	cursor: pointer;
+	min-width: 400px;
+	min-height: 100vh;
+	background: var(--primary-color);
+	place-content: center;
+	transition: all .5s ease-in-out;
+}
+
+.header .nav-container.active {
+	right: 0;
+}
+
+.header .nav-container .nav-list {
+	list-style: none;
+}
+
+.header .nav-container .nav-list .nav-item {
+	margin-bottom: 50px;
+}
+
+.header .nav-container .nav-list .nav-item a {
+	padding: 15px;
+	font-size: 3vw;
+	font-weight: 600;
+	position: relative;
+	letter-spacing: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: var(--primary-color);
+	transition: color .5s ease-in-out;
+  	text-shadow: -1px -1px 0 #ecf0f1, 1px -1px 0 #ecf0f1, -1px 1px 0 #ecf0f1, 1px 1px 0 #ecf0f1;
+}
+
+.header .nav-container .nav-list .nav-item a::before {
+	bottom: 0;
+	left: -20px;
+	content: '';
+	width: 40px;
+	height: 10%;
+	position: absolute;
+	background: #ecf0f1;
+	transition: width .5s ease-in-out;
+}
+
+.header .nav-container .nav-list .nav-item:hover a {
+	color: #ecf0f1;
+}
+
+.header .nav-container .nav-list .nav-item a:hover::before {
+	width: 110%;
+}
+/* Luyanda header end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .custom-logo {
     width: 10% !important;
 }
@@ -314,6 +479,11 @@ h2 span:nth-child(16){
 
 .search-bar {
     box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.232);
+    cursor: pointer;
+}
+
+.search-bar:hover {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.721);
 }
 
 #skills {
