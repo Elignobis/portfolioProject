@@ -20,6 +20,33 @@
     padding: 0;
 }
 
+/* Blurry loading page */
+
+
+body {
+  
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.bg {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(0px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: rgb(255, 0, 0);
+}
 
 /* Luyanda header */
 
@@ -190,8 +217,10 @@
 
 
 html, body {
-    overflow: scroll;
+    overflow: hidden;
 }
+
+
 
 
 /* Media Queries */
@@ -593,7 +622,7 @@ body {
 }
 
 .submit-con {
-    background: linear-gradient(to right, rgb(68,125,236, 0.6) 0%, rgb(68,125,236, 0.6) 20%, rgb(68,125,236, 0.6) 40%, rgb(68,125,236, 0.6) 60%, rgb(68,125,236, 0.6) 80%, rgb(68,125,236, 0.6) 100%) !important; 
+    background: linear-gradient(to right, rgb(255, 115, 0) 0%, rgba(255, 115, 0, 0.748) 20%, rgba(255, 115, 0, 0.496) 40%, rgba(255, 115, 0, 0.423) 60%, rgb(255, 115, 0) 80%, rgb(255, 115, 0) 100%) !important; 
 }
 
 .con-hover:hover {
